@@ -18,7 +18,7 @@ if (navigator.serviceWorker) {
 
 function update() {
   console.log("update")
-  
+
   // input
   const number = parseInt(document.getElementById("number").value)
   console.log("number : " + number)
@@ -34,6 +34,6 @@ function update() {
 
   // output
   document.getElementById("answer").innerHTML = answer
-  
+
   console.log("end")
 }
